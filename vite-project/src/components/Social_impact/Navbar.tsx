@@ -6,4 +6,9 @@ function NavBar(){
     const venture='Venture Labs'
     const brand='Brands'
     const careers='Careers'
-    const contract='Contact'}
+    const contract='Contact'
+return(
+    <>
+    <div></div>
+    </>
+)}
