@@ -2,8 +2,9 @@
 
 To begin  start by typing:
 
-  cd client
-  npm start
+  cd vite-project
+  pnpm run dev
+
 
 Inside that directory, you can run several commands:
 
