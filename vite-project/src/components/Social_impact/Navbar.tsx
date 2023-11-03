@@ -1,5 +1,5 @@
 //lists and displays the Header items onto the navbar
-
+import "../styles/navbar.css"
 import Header from "../props/header"
 
 function NavBar(){
