@@ -9,7 +9,7 @@ interface LandingItems{
 
 const LandingPage:LandingItems[]=[
     {
-    src:"vite-project/src/assets/images/Logo_White_arvoyx.svg",
+    src:"/vite-project/src/assets/images/Logo_White_arvoyx.svg",
     alt: "Elewa",
     text: "Trade, not aid",
     header: "Southern innovations addressing global problems",
