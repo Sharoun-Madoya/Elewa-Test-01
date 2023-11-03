@@ -4,7 +4,7 @@ import Header from "../props/header"
 
 function NavBar(){
 return(
-    <div className=".navContainer">
+    <div className="navContainer">
         <div className= 'container'>
             <img src='' alt='elewa-logo' ></img>
             {/* iterating through the header props  */}
