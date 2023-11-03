@@ -1,5 +1,6 @@
 //it displays the landing page Text, image and title
 
+import "../styles/landinPage.css"
 import LandingPage from "../props/LandingPageprops";
 
 

@@ -1,5 +1,5 @@
 
-
+import "../styles/Land2.css"
 import Land2Page from "../props/Land2Props"
 
 function Land2Pg(){
