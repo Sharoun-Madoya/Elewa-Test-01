@@ -3,6 +3,7 @@ import Navigation from "../props/navigationprops";
 import Brands from "../props/brandprops";
 import Contacts from "../props/contactprops";
 import Privacy from "../props/Privacyprops";
+import Logo from "../props/headerImgProps";
 import "../styles/footer.css"
 
 function Footer() {
@@ -62,7 +63,11 @@ function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <img src="" alt="Elewa Logo"></img>
+                    <div className="logo">
+                    {Logo.map((logoItem, index) => (
+                        <img key={index} src={logoItem.src} alt={logoItem.alt} />
+                    ))}
+                    </div>
                     <ul></ul>
                 </div>
             </div>

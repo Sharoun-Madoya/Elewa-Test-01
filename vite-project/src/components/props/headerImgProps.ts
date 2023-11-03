@@ -9,7 +9,7 @@ interface ElewaLogo{
 const Logo:ElewaLogo[]=[
     {
     src:"/vite-project/src/assets/images/Logo_White_arvoyx.svg",
-    alt: "Elewa-logo",
+    alt: "elewa-logo",
     },
 ]
 
