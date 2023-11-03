@@ -1,2 +1,0 @@
-from React import 'react'
-
