@@ -1,4 +1,3 @@
-import React from 'react';
 import Headquaters from "../props/HeadquatersProps";
 import Navigation from "../props/navigationprops";
 import Brands from "../props/brandprops";
@@ -22,10 +21,15 @@ function Footer() {
                         ))}
                     </ul>
                     <ul>
-                        {Object.values(Navigation).map((item, index) => (
-                            <li key={index}>{item}</li>
+                        {Navigation.map(NavigationItem =>(
+                            <li key={NavigationItem.about}>
+                                <a>{NavigationItem.impact},</a>
+                                <a>{NavigationItem.invest},</a>
+                                <a>{NavigationItem.news},</a>
+                                <a>{NavigationItem.cont}</a>
+                            </li>
                         ))}
-                    </ul>
+                    </ul> 
                     <ul>
                         {Contacts.map(contact => (
                             <li key={contact.number}>
