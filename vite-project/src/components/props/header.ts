@@ -1,4 +1,5 @@
 // defining the interface objects for the headerItems
+
 interface HeaderItems{
     headerText: string;
     path:string
