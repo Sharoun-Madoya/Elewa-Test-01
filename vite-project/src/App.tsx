@@ -6,11 +6,9 @@ import NavBar from './components/Social_impact/Navbar'
 import Footer from './components/Social_impact/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
-    <Footer/>
+    <NavBar/>
     </div>
   )
 }

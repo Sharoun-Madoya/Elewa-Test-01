@@ -1,11 +1,18 @@
-.header-container {
-    padding-top: 3.5rem;
-    top: 0;
-    width: 100%;
-    transition: top 0.3s;
+ .navContainer {
+
+ }
+ .container {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
 }
 
-.header {
+
+
+
+
+
+/* .container{
     width: 90%;
     margin-inline: auto;
     font-family: 'Times New Roman', Times, serif;
@@ -16,7 +23,7 @@
 
 }
 
-.navbar {
+.img {
     display: flex;
     align-items: center;
     color: f3f1f1;
@@ -24,4 +31,4 @@
 
 .logo {
     padding: 2rem 29rem 1rem 0;
-}
+} */

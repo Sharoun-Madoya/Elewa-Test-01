@@ -9,7 +9,7 @@ return(
             <img src='' alt='elewa-logo' ></img>
             {/* iterating through the header props  */}
             <div>
-                {Header.map(headerItem =>(
+                    {Header.map(headerItem =>(
                     <a key={headerItem.path} href={"headerItem.path"}>
                         {headerItem.headerText}
                     </a>
