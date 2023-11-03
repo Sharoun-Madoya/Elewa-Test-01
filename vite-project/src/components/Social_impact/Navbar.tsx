@@ -8,7 +8,7 @@ return(
         <div className= 'container'>
             <img src='' alt='elewa-logo' ></img>
             {/* iterating through the header props  */}
-            <div>
+            <div className="navLinks">
                     {Header.map(headerItem =>(
                     <a key={headerItem.path} href={"headerItem.path"}>
                         {headerItem.headerText}
