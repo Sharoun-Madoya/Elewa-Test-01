@@ -1,6 +1,7 @@
 // defining the interface objects for the NavigationItems
 
 interface NavigationItems{
+    title:string;
     about:string;
     impact:string;
     invest:string;
@@ -10,6 +11,7 @@ interface NavigationItems{
 
 const Navigation:NavigationItems[]=[
     {
+    title:"Navigation",
     about: "About us",
     impact: "Social impact",
     invest: "Invest",

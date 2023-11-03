@@ -3,6 +3,7 @@ import Navigation from "../props/navigationprops";
 import Brands from "../props/brandprops";
 import Contacts from "../props/contactprops";
 import Privacy from "../props/Privacyprops";
+import "../styles/footer.css"
 
 function Footer() {
     return (
@@ -23,6 +24,7 @@ function Footer() {
                     <ul>
                         {Navigation.map(NavigationItem =>(
                             <li key={NavigationItem.about}>
+                                <h3>{NavigationItem.title}</h3>
                                 <a>{NavigationItem.impact},</a>
                                 <a>{NavigationItem.invest},</a>
                                 <a>{NavigationItem.news},</a>
@@ -32,7 +34,8 @@ function Footer() {
                     </ul> 
                     <ul>
                         {Contacts.map(contact => (
-                            <li key={contact.number}>
+                            <li key={contact.title}>
+                                <h3>{contact.title}</h3>
                                 <p>{contact.number}</p>
                                 <p>{contact.email}</p>
                             </li>
@@ -40,7 +43,8 @@ function Footer() {
                     </ul>
                     <ul>
                         {Brands.map(brand => (
-                            <li key={brand.elewa}>
+                            <li key={brand.title}>
+                                <h3>{brand.title}</h3>
                                 <p>{brand.elewa}</p>
                                 <p>{brand.italanta}</p>
                                 <p>{brand.labs}</p>
@@ -49,10 +53,9 @@ function Footer() {
                     </ul>
                     <ul>
                         {Privacy.map(privacy => (
-                            <li key={privacy.terms}>
-                                <h3>Terms and Conditions</h3>
+                            <li key={privacy.title}>
+                                <h3>{privacy.title}</h3>
                                 <p>{privacy.terms}</p>
-                                <h3>Cookie Preferences</h3>
                                 <p>{privacy.cookie}</p>
                             </li>
                         ))}

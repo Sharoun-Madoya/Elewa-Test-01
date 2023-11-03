@@ -1,6 +1,7 @@
 // defining the interface objects for the BrandsItems
 
 interface BrandsItems{
+    title: string;
     elewa: string;
     italanta: string;
     labs: string;
@@ -8,6 +9,7 @@ interface BrandsItems{
 
 const Brands:BrandsItems[]=[
     {
+    title:"Brand",
     elewa: "Elewa",
     italanta: "Italanta",
     labs: "Venture labs",
