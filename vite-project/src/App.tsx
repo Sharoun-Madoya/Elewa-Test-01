@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
     <NavBar/>
-    <LandingPg/>
-    {/* <Land2Pg/> */}
+    <LandingPg/><br></br>
+    <Land2Pg/>
     </div>
   )
 }
