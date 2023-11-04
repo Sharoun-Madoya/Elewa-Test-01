@@ -3,6 +3,9 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Invest from './components/sections/Invest'
 import About from './components/sections/About';
+import SocialImpact from './components/sections/SocialImpact';
+
+
 
 function App() {
   return (
