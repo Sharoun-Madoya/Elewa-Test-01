@@ -10,7 +10,7 @@ function LandingPg(){
         {LandingPage.map((item, index) => (
             <div key={index}>
                 <img src={item.src} alt={item.alt} />
-                <h2 id="page1-text">{item.text}</h2>
+                <h2 id="page1-text">{item.text}</h2><br></br>
                 <h1 id="page1-text">{item.header}</h1>
             </div>
         ))}
@@ -19,3 +19,5 @@ function LandingPg(){
 }
 
 export default LandingPg
+
+
