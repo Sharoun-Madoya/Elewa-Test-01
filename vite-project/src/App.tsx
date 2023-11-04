@@ -10,7 +10,7 @@ import Land2Pg from './components/Social_impact/Land2'
 function App() {
   return (
     <div>
-    <Land2Pg/>
+    <NavBar/>
     </div>
   )
 }

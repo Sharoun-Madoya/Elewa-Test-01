@@ -21,7 +21,6 @@ return(
                 ))}
             </div>
         </div>
-        <hr></hr>
     </div>
 )
 }
