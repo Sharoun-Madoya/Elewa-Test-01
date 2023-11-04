@@ -1,4 +1,8 @@
 .navContainer {
+  position: absolute;
+  z-index: 1000;
+  top: 80px;
+  opacity: 0.8;
   padding-top: 3.5rem;
   width: 100%;
   transition: top 0.3s;

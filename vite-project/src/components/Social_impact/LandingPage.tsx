@@ -8,7 +8,7 @@ function LandingPg(){
     return(
         <div className="landing-section">
         {LandingPage.map((item, index) => (
-            <div key={index}>
+            <div key={index} className="landing-container">
                 <img src={item.src} alt={item.alt} />
                 <h2 id="page1-text">{item.text}</h2><br></br>
                 <h1 id="page1-text">{item.header}</h1>
