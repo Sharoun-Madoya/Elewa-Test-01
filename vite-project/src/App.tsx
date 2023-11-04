@@ -7,6 +7,8 @@ import Footer from './components/Views/Footer'
 import LandingPg from './components/Views/LandingPage'
 import Land2Pg from './components/Views/Land2'
 
+
+
 function App() {
   return (
     <div>
