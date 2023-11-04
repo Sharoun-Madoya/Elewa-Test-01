@@ -1,9 +1,9 @@
-import Headquaters from "../props/HeadquatersProps";
-import Navigation from "../props/navigationprops";
-import Brands from "../props/brandprops";
-import Contacts from "../props/contactprops";
-import Privacy from "../props/Privacyprops";
-import Logo from "../props/headerImgProps";
+import Headquaters from "../modelsData/HeadquatersProps";
+import Navigation from "../modelsData/navigationprops";
+import Brands from "../modelsData/brandprops";
+import Contacts from "../modelsData/contactprops";
+import Privacy from "../modelsData/Privacyprops";
+import Logo from "../modelsData/headerImgProps";
 import "../styles/footer.css"
 
 function Footer() {

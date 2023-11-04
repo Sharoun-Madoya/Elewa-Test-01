@@ -1,7 +1,7 @@
 //it displays the landing page Text, image and title
 
 import "../styles/landinPage.css"
-import LandingPage from "../props/LandingPageprops";
+import LandingPage from "../modelsData/LandingPageprops";
 
 
 function LandingPg(){

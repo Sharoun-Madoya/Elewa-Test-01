@@ -23,13 +23,13 @@
     max-width: max(70%, 32rem);
 }
 .landing-section h2{
-    margin: -60vh 0 0 150px;
+    margin: -60vh 0 0 80px;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 70px;
 }
 .landing-section h1{
-    margin: -8vh 0 0 150px;
+    margin: -8vh 0 0 80px;
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 20px;
