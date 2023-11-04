@@ -5,11 +5,12 @@ import './App.css'
 import NavBar from './components/Social_impact/Navbar'
 import Footer from './components/Social_impact/Footer'
 import LandingPg from './components/Social_impact/LandingPage'
+import Land2Pg from './components/Social_impact/Land2'
 
 function App() {
   return (
     <div>
-    <LandingPg/>
+    <Land2Pg/>
     </div>
   )
 }

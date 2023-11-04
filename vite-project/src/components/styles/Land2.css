@@ -13,11 +13,12 @@
     font-weight: bold;
 }
  h4{
-    font-size: 80px;
+    font-size: 20px;
+    max-width: max(50%, 32rem)
 }
  img{
     border-radius: 50px;
-    width: 70%;
-    padding-top: 7%;
-    margin: 0 0 0 80px;
+    width: 90%;
+    padding-top: 5%;
+    margin: 0 0 0 100px;
 }
