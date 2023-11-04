@@ -1,5 +1,5 @@
 .footerPage {
-    background-color: #ffffff;
+    background-color: black;
     padding: 20px 0;
   }
   
@@ -33,7 +33,7 @@
   }
   
   .footerContainer ul li h3 {
-    color: #000;
+    color: wheat;
     font-size: 18px;
     margin-bottom: 10px;
     display: flex;
