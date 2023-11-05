@@ -1,4 +1,4 @@
-export interface LandingItems{
+export interface socialLandingItems{
     src:string;
     alt:string;
     text:string;
