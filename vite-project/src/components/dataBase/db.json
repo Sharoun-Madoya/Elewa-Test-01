@@ -117,5 +117,47 @@
         "text1":"Become part of our mission.",
         "text2":"And start ",
         "text3":"investing."
-    }]
+    }],
+    "social-l" : [{
+        "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg",
+        "alt": "Elewa",
+        "text": "Scaling impact. Beyond the norm",
+        "header": "Human and Environmental Impact through Social Enterprise"
+        }],
+        "social-l2" :[{
+            "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg",
+            "alt": "Elewa",
+            "title":"(Social) business for the win",
+            "description":"With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive and scalable business. The rest will take care of itself.",
+            "text1":"733+",
+            "text1.1":"People trained",
+            "text2":"733k",
+            "text2.1":"careers launched",
+            "text3":"200+",
+            "text3.1":"Projects finished",
+            "text4":"56",
+            "text4.1":"Investors"
+        }],
+        "social-l3" :[{
+            "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690303/elewa-group-website/Images/IMG_6523_vabpyo.png",
+            "alt": "Elewa",
+            "title":"Elewa NV, a multi-stakeholder cooperation",
+            "text1":"At the heart of Elewa lies the structure Elewa NV. Based in Brussels, Belgium, Elewa NV is a private holding company which controls the assets of all Elewa activities.",
+            "text2":"Elewa NV is owned and controlled by Elewa's founder, a small community of investors which share in the vision of Elewa and Elewa employees based throughout the activities of the group."
+        }],
+        "social-l4" :[{
+            "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690303/elewa-group-website/Images/IMG_6523_vabpyo.png",
+            "alt": "Elewa",
+            "title":"Elewa NV, a multi-stakeholder cooperation",
+            "text1":"At the heart of Elewa lies the structure Elewa NV. Based in Brussels, Belgium, Elewa NV is a private holding company which controls the assets of all Elewa activities.",
+            "text2":"Elewa NV is owned and controlled by Elewa's founder, a small community of investors which share in the vision of Elewa and Elewa employees based throughout the activities of the group."
+        }],
+        "social-l5" :[{
+            "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690303/elewa-group-website/Images/IMG_6523_vabpyo.png",
+            "alt": "Elewa",
+            "title":"Elewa NV, a multi-stakeholder cooperation",
+            "text1":"At the heart of Elewa lies the structure Elewa NV. Based in Brussels, Belgium, Elewa NV is a private holding company which controls the assets of all Elewa activities.",
+            "text2":"Elewa NV is owned and controlled by Elewa's founder, a small community of investors which share in the vision of Elewa and Elewa employees based throughout the activities of the group."
+        }]
+
   }
