@@ -1,3 +1,5 @@
+//uses state and effect to fetch data from the Db.json regarding the Navigation links
+
 import { useEffect, useState } from 'react';
 import { NavigationItems } from '../../modelsData/investModels/navigationprops';
 

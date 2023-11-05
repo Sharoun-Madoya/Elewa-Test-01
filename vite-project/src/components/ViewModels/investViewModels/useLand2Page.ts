@@ -1,6 +1,8 @@
+//uses state and effect to fetch data from the Db.json regarding the 2nd landing page
+
+
 import { useEffect, useState } from 'react';
 import { Land2Items } from '../../modelsData/investModels/Land2Props';
-
 
 export const useLand2Page = () => {
     const [land2Page, setLand2Page] = useState<Land2Items[]>([]);

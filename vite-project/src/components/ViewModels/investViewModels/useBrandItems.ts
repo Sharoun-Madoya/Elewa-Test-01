@@ -1,7 +1,7 @@
+//uses state and effect to fetch data from the Db.json regarding the Brands
+
 import { useEffect, useState } from 'react';
 import { BrandsItems } from '../../modelsData/investModels/brandprops';
-
-
 
 export const useBrandItems= () => {
     const [brandItems, setBrandItems] = useState<BrandsItems[]>([]); 

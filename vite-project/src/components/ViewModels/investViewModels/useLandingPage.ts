@@ -1,3 +1,6 @@
+//uses state and effect to fetch data from the Db.json regarding the Landing page in invest
+
+
 import { useEffect, useState } from 'react';
 import { LandingItems } from '../../modelsData/investModels/LandingPageprops';
 

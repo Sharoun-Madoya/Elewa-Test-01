@@ -1,6 +1,8 @@
+//uses state and effect to fetch data from the Db.json regarding the Header
+
+
 import { useEffect, useState } from 'react';
 import { HeaderItems } from '../../modelsData/investModels/header';
-
 
 export const useHeaderItems = () => {
     const [headerItems, setHeaderItems] = useState<HeaderItems[]>([]);

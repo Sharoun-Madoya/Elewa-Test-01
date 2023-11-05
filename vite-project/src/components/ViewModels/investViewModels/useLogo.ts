@@ -1,3 +1,5 @@
+//uses state and effect to fetch data from the Db.json regarding the elewa Logo
+
 import { useEffect, useState } from 'react';
 import { ElewaLogo } from '../../modelsData/investModels/LogoProps'; 
 

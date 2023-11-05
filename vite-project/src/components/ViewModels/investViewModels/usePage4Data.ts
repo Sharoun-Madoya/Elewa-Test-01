@@ -1,7 +1,8 @@
+//uses state and effect to fetch data from the Db.json regarding the page 4 on invest
+
+
 import { Page4Items } from "../../modelsData/investModels/Page4Props";
 import { useEffect, useState } from 'react';
-
-
 
 export const usePage4Data = () => {
     const [page4, setPage4] = useState<Page4Items[]>([]);

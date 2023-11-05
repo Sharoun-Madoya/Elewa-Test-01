@@ -1,8 +1,8 @@
+//uses state and effect to fetch data from the Db.json regarding the contacts
+
+
 import { useEffect, useState } from 'react';
 import { ContactItems } from '../../modelsData/investModels/contactprops';
-
-
-
 
 export const useContact= () => {
     const [contactItems, setContactItems] = useState<ContactItems[]>([]);

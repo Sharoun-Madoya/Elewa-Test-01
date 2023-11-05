@@ -1,3 +1,6 @@
+//uses state and effect to fetch data from the Db.json regarding the icons
+
+
 import { useEffect, useState } from 'react';
 import { IconLogo } from '../../modelsData/investModels/iconProps';
 
