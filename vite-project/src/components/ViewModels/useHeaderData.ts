@@ -9,7 +9,7 @@ export const useHeaderItems = () => {
       fetch('http://localhost:3001/headeritem')
         .then((response) => response.json())
         .then((data) => {
-          setHeaderItems(data.headeritem as HeaderItems[]);
+          setHeaderItems(data);
           console.log(data);
         });
     }, []);

@@ -1,5 +1,5 @@
 {
-    "headeritem":{
+    "headeritem":[{
         "headerText":"Home",
         "path":"/home"
     },
@@ -36,6 +36,6 @@
         "headerText":"Contact",
         "path":"/Contact"
 
-    }
+    }]
     
   }
