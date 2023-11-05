@@ -1,4 +1,4 @@
-import { usePage5Data } from "../ViewModels/investViewModels/usePage5Data";
+import { usePage5Data } from "../../ViewModels/investViewModels/usePage5Data";
 
 function Pg5(){
 const Page5= usePage5Data();

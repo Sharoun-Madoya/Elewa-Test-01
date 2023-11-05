@@ -1,6 +1,6 @@
 
 import "../styles/Land2.css"
-import { useLand2Page } from "../ViewModels/investViewModels/useLand2Page"
+import { useLand2Page } from "../../ViewModels/investViewModels/useLand2Page"
 
 function Land2Pg(){
 const Land2Page= useLand2Page();

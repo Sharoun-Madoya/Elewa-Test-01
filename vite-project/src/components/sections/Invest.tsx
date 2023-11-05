@@ -2,11 +2,11 @@
 
 import NavBar from '../Views/Navbar'
 import Footer from '../Views/Footer'
-import LandingPg from '../Views/LandingPage'
-import Land2Pg from '../Views/Land2'
-import Pg4 from '../Views/Page4'
-import Pg5 from '../Views/Page5'
-import Pg6 from '../Views/Page6'
+import LandingPg from '../Views/investViews/LandingPage'
+import Land2Pg from '../Views/investViews/Land2'
+import Pg4 from '../Views/investViews/Page4'
+import Pg5 from '../Views/investViews/Page5'
+import Pg6 from '../Views/investViews/Page6'
 
 
 function Invest(){
