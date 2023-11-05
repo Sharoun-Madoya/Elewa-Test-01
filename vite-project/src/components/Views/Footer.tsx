@@ -1,3 +1,5 @@
+//Renders all the footer information
+
 import { useNavigationItem } from "../ViewModels/investViewModels/useNavigation"
 import { usePrivacy } from "../ViewModels/investViewModels/usePrivacyItems"
 import { useBrandItems } from "../ViewModels/investViewModels/useBrandItems"
