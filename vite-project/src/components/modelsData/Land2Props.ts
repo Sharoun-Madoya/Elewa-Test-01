@@ -6,9 +6,3 @@ interface Land2Items{
     text:string;
     header:string;
 }
-
-const Land2Page:Land2Items[]=[
-
-]
-
-export default Land2Page
