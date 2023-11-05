@@ -1,7 +1,7 @@
 {
     "headeritem":[{
         "headerText":"Home",
-        "path":"/home"
+        "path":"https://elewa.ke"
     },
     {
         "headerText":"About",
@@ -9,7 +9,7 @@
     },
     {
         "headerText":"Social impact",
-        "path":"/Social impact"
+        "path":"/Social"
 
     },
     {
@@ -19,22 +19,22 @@
     },
     {
         "headerText":"Venture Labs",
-        "path":"/Venture Labs"
+        "path":"https://elewa.ke/venture-labs"
 
     },
     {
         "headerText":"Brands",
-        "path":"/Brands"
+        "path":"https://elewa.ke/brands"
 
     },
     {
         "headerText":"Careers",
-        "path":"/Careers"
+        "path":"https://elewa.ke/careers"
 
     },
     {
         "headerText":"Contact",
-        "path":"/Contact"
+        "path":"https://elewa.ke/contact"
 
     }],
     "logo":[
