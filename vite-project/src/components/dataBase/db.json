@@ -42,6 +42,40 @@
            "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690297/elewa-group-website/Icons/SVG/_Logo/Logo_White_arvoyx.svg",
             "alt": "elewa-logo"
             }
-    ]
+    ],
+
+    "footer" : [{
+        "headquaters" : {
+            "h1" : "Headquarters",
+            "address": ["The Promenade, 19 General", "Mathenge Rd", "Nairobi, Kenya"]
+        },
+        "contact" : {
+            "h1" : "Contact",
+            "number" : "T +254 78 92 27 755",
+            "email": ["E", "info@elewa.ke"]
+        },
+        "navigation" : {
+            "h1" : "Navigation",
+            "about": "about us",
+            "social" : "Social impact",
+            "invest" : "Invest", 
+            "news" : "News", 
+            "contact" : "Contact"
+        },
+        "brands" : {
+            "h1" : "Brands",
+            "brands": ["Elewa", "Italanta", "Venture labs"]
+        },
+        "privacy" : {
+            "h1" : "Privacy",
+            "terms" : "Terms and conditions",
+            "cookies" : "Cookies preferences"
+        },
+        "icons" : {
+            "facebook" : ["../../src/assets/icons/facebook_lhhwk2 (1).svg"],
+            "instagram" : ["../../src/assets/icons/instagram_x8ujcq (3).svg", "https://www.instagram.com/elewa_education/"],
+            "linkedIn" : ["../../src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
+        }
+    }]       
     
   }
