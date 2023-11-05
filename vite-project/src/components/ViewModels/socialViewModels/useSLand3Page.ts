@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { sLand3Items } from '../../modelsData/socialModels/s-Landing3Props';
 
 
-export const useSocialLandingPage = () => {
+export const useSLand3Page = () => {
     const [sLand3Page, setSLand3Page] = useState<sLand3Items[]>([]);
   
     useEffect(() => {
