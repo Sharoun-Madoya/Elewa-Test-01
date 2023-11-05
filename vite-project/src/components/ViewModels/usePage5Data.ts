@@ -1,4 +1,4 @@
-import { Page5Items } from "../modelsData/Page5Props";
+import { Page5Items } from "../modelsData/investModels/Page5Props";
 import { useEffect, useState } from 'react';
 
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ContactItems } from '../modelsData/contactprops';
+import { ContactItems } from '../modelsData/investModels/contactprops';
 
 
 

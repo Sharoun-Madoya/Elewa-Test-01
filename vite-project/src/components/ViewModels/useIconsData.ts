@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { IconLogo } from '../modelsData/iconProps';
+import { IconLogo } from '../modelsData/investModels/iconProps';
 
 
 export const useIconData = () => {

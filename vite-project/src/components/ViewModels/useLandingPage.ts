@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { LandingItems } from '../modelsData/LandingPageprops';
+import { LandingItems } from '../modelsData/investModels/LandingPageprops';
 
 
 export const useLandingPage = () => {

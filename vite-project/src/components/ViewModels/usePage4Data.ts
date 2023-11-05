@@ -1,4 +1,4 @@
-import { Page4Items } from "../modelsData/Page4Props";
+import { Page4Items } from "../modelsData/investModels/Page4Props";
 import { useEffect, useState } from 'react';
 
 
