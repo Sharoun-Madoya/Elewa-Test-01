@@ -1,3 +1,6 @@
+// defining the interface objects for the Social impact Model page 2 Items for json and ViewModels
+
+
 export interface sLand2Items{
     src:string;
     alt:string;
