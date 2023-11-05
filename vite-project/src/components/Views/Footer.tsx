@@ -1,20 +1,21 @@
-import { useNavigation } from "react-router-dom"
+import { useNavigationItem } from "../ViewModels/useNavigation"
 import { usePrivacy } from "../ViewModels/usePrivacyItems"
 import { useBrandItems } from "../ViewModels/useBrandItems"
-import { useHeadQuaters } from "../ViewModels/useFooter"
+import { useHeadQuaters } from "../ViewModels/useHeadQuaters"
 import { useContact } from "../ViewModels/useContactItems"
 import { useIconData } from "../ViewModels/useIconsData"
 import { useElewaLogo } from "../ViewModels/useLogo";
 import "../styles/footer.css"
 
 function Footer() {
-    const Navigation = useNavigation();
+    const Navigation = useNavigationItem();
     const Privacy = usePrivacy();
     const Brands = useBrandItems();
     const Headquaters = useHeadQuaters();
     const Contacts = useContact();
     const iconData = useIconData();
     const elewaLogo = useElewaLogo();
+
     return (
         <div className="footerPage">
             <div className="footerContainer">

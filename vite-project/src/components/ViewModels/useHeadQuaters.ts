@@ -9,7 +9,7 @@ export const useHeadQuaters= () => {
 
   
     useEffect(() => {
-      fetch('http://localhost:3001/footer/headquaters')
+      fetch('http://localhost:3001/headquaters')
         .then((response) => response.json())
         .then((data) => {
           setheadquaterItems(data);

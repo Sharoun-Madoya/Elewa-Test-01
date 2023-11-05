@@ -9,7 +9,7 @@ export const useContact= () => {
 
   
     useEffect(() => {
-      fetch('http://localhost:3001/footer/contact')
+      fetch('http://localhost:3001/contact')
         .then((response) => response.json())
         .then((data) => {
           setContactItems(data);

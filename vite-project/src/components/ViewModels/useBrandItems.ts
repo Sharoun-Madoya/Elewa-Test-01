@@ -6,7 +6,7 @@ import { BrandsItems } from '../modelsData/brandprops';
 export const useBrandItems= () => {
     const [brandItems, setBrandItems] = useState<BrandsItems[]>([]); 
     useEffect(() => {
-      fetch('http://localhost:3001/footer/brands')
+      fetch('http://localhost:3001/brands')
         .then((response) => response.json())
         .then((data) => {
           setBrandItems(data);

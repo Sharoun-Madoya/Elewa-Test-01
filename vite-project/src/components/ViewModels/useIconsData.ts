@@ -6,7 +6,7 @@ export const useIconData = () => {
     const [iconLogo, setIconLogo] = useState<IconLogo[]>([]);
   
     useEffect(() => {
-      fetch('http://localhost:3001/footer/icons')
+      fetch('http://localhost:3001/icons')
         .then((response) => response.json())
         .then((data) => {
           setIconLogo(data);

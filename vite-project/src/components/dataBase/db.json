@@ -44,43 +44,41 @@
             }
     ],
 
-    "footer" : [{
-        "headquaters" : {
+        "headquaters" : [{
             "title" : "Headquarters",
             "building": "The Promenade, 19 General",  
             "road" : "Mathenge Rd",
             "town" : "Nairobi, Kenya"
-        },
-        "contact" : {
+        }],
+        "contact" : [{
             "title" : "Contact",
             "number" : "T +254 78 92 27 755",
             "email": "E, info@elewa.ke"
-        },
-        "navigation" : {
+        }],
+        "navigation" : [{
             "title" : "Navigation",
             "about": "about us",
             "impact" : "Social impact",
             "invest" : "Invest", 
             "news" : "News", 
             "cont" : "Contact"
-        },
-        "brands" : {
+        }],
+        "brands" : [{
             "title" : "Brands",
             "elewa": "Elewa",  
             "italanta" : "Italanta",
             "labs" : "Venture labs"
-        },
-        "privacy" : {
+        }],
+        "privacy" : [{
             "title" : "Privacy",
             "terms" : "Terms and conditions",
             "cookie" : "Cookies preferences"
-        },
-        "icons" : {
+        }],
+        "icons" : [{
             "facebook" : "",
             "instagram" : "https://www.instagram.com/elewa_education/",
             "linkedIn" : "https://www.linkedin.com/company/elewa/"
-        }
-    }],      
+        }],      
     "landingpage" : [{
         "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg",
         "alt": "Elewa",
