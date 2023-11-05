@@ -1,4 +1,4 @@
-//holds the elewa image logo
+//holds the elewa image logo interface
 
 export interface ElewaLogo{
     src: string;

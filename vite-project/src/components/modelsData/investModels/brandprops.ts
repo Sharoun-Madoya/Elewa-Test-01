@@ -1,4 +1,4 @@
-// defining the interface objects for the BrandsItems
+// defining the interface objects for the BrandsItems for json and ViewModels
 
 export interface BrandsItems{
     title: string;
