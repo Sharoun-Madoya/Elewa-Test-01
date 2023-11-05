@@ -1,3 +1,6 @@
+//uses state and effect to fetch data from the Db.json regarding the privacy in footer
+
+
 import { useEffect, useState } from 'react';
 import { PrivacyItems } from '../../modelsData/investModels/Privacyprops';
 
