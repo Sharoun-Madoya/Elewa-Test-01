@@ -7,7 +7,7 @@ interface HeaderItems{
 
 const Header:HeaderItems[]=[
     {
-        headerText:"Home",
+        headerText:"House",
         path:"/"
 
     },
