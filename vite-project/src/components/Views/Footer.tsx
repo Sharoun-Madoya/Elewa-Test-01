@@ -24,7 +24,7 @@ function Footer() {
                     <ul>
                         {Headquaters.map(headquarterItem => (
                             <li key={headquarterItem.town}>
-                                <h3>{headquarterItem.footerHeader}</h3>
+                                <h3>{headquarterItem.title}</h3>
                                 <p>
                                     {headquarterItem.building}, {headquarterItem.road}, {headquarterItem.town}
                                 </p>
