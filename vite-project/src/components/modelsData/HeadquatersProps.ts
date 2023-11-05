@@ -7,17 +7,3 @@ export interface HeadquatersItems{
     road: string
     town: string
 }
-
-
-const Headquaters:HeadquatersItems[]=[
-    {
-    footerHeader: "Headquaters",
-    building: "The Promenade, 19 General",
-    road: "Mathenge Rd",
-    town: "Nairobi, Kenya"
-    },
-]
-
-
-
-export default Headquaters;

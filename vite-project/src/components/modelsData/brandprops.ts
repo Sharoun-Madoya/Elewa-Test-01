@@ -6,14 +6,3 @@ export interface BrandsItems{
     italanta: string;
     labs: string;
 }
-
-const Brands:BrandsItems[]=[
-    {
-    title:"Brand",
-    elewa: "Elewa",
-    italanta: "Italanta",
-    labs: "Venture labs",
-    },
-]
-
-export default Brands

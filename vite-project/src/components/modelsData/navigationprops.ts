@@ -8,16 +8,3 @@ export interface NavigationItems{
     news:string;
     cont:string;
 }
-
-const Navigation:NavigationItems[]=[
-    {
-    title:"Navigation",
-    about: "About us",
-    impact: "Social impact",
-    invest: "Invest",
-    news: "News",
-    cont: "Contact"
-    },
-]
-
-export default Navigation;
