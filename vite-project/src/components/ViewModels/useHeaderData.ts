@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { HeaderItems } from '../modelsData/header';
-import data from '../dataBase/db.json'
 
 
 export const useHeaderItems = () => {
