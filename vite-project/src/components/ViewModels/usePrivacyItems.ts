@@ -1,9 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrandsItems } from '../modelsData/brandprops';
-import { ContactItems } from '../modelsData/contactprops';
 import { PrivacyItems } from '../modelsData/Privacyprops';
-
-
 
 export const usePrivacy= () => {
     const [privacyItems, setPrivacyItems] = useState<PrivacyItems []>([]);
