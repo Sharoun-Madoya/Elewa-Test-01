@@ -4,6 +4,9 @@ import NavBar from '../Views/Navbar'
 import Footer from '../Views/Footer'
 import LandingPg from '../Views/LandingPage'
 import Land2Pg from '../Views/Land2'
+import Pg4 from '../Views/Page4'
+import Pg5 from '../Views/Page5'
+import Pg6 from '../Views/Page6'
 
 
 function Invest(){
@@ -12,6 +15,9 @@ function Invest(){
             <NavBar/>
             <LandingPg/><br></br>
             <Land2Pg/>
+            <Pg4/>
+            <Pg5/>
+            <Pg6/>
             <Footer/>
         </div>
     )
