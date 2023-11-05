@@ -1,13 +1,19 @@
-import Headquaters from "../modelsData/HeadquatersProps";
-import Navigation from "../modelsData/navigationprops";
-import Brands from "../modelsData/brandprops";
-import Contacts from "../modelsData/contactprops";
-import Privacy from "../modelsData/Privacyprops";
+import { useNavigation } from "react-router-dom"
+import { usePrivacy } from "../ViewModels/usePrivacyItems"
+import { useBrandItems } from "../ViewModels/useBrandItems"
+import { useHeadQuaters } from "../ViewModels/useFooter"
+import { useContact } from "../ViewModels/useContactItems"
+import { useIconData } from "../ViewModels/useIconsData"
 import { useElewaLogo } from "../ViewModels/useLogo";
 import "../styles/footer.css"
 
 function Footer() {
-
+    const Navigation = useNavigation();
+    const Privacy = usePrivacy();
+    const Brands = useBrandItems();
+    const Headquaters = useHeadQuaters();
+    const Contacts = useContact();
+    const iconData = useIconData();
     const elewaLogo = useElewaLogo();
     return (
         <div className="footerPage">
@@ -25,13 +31,14 @@ function Footer() {
                         ))}
                     </ul>
                     <ul>
-                        {Navigation.map(NavigationItem =>(
-                            <li key={NavigationItem.about}>
-                                <h3>{NavigationItem.title}</h3>
-                                <a>{NavigationItem.impact},</a>
-                                <a>{NavigationItem.invest},</a>
-                                <a>{NavigationItem.news},</a>
-                                <a>{NavigationItem.cont}</a>
+                        {Navigation.map(navigationItem =>(
+                            <li key={navigationItem.about}>
+                                <h3>{navigationItem.title}</h3>
+                                <a>{navigationItem.impact},</a>
+                                <a>{navigationItem.invest},</a>
+                                <a>{navigationItem.about}</a>
+                                <a>{navigationItem.news},</a>
+                                <a>{navigationItem.cont}</a>
                             </li>
                         ))}
                     </ul> 

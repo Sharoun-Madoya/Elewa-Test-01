@@ -3,10 +3,8 @@ import { BrandsItems } from '../modelsData/brandprops';
 
 
 
-export const usePrivacy= () => {
-    const [brandItems, setBrandItems] = useState<BrandsItems[]>([]);
-
-  
+export const useBrandItems= () => {
+    const [brandItems, setBrandItems] = useState<BrandsItems[]>([]); 
     useEffect(() => {
       fetch('http://localhost:3001/footer/brands')
         .then((response) => response.json())

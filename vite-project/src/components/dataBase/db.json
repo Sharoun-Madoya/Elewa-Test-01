@@ -46,35 +46,39 @@
 
     "footer" : [{
         "headquaters" : {
-            "h1" : "Headquarters",
-            "address": ["The Promenade, 19 General", "Mathenge Rd", "Nairobi, Kenya"]
+            "title" : "Headquarters",
+            "building": "The Promenade, 19 General",  
+            "road" : "Mathenge Rd",
+            "town" : "Nairobi, Kenya"
         },
         "contact" : {
-            "h1" : "Contact",
+            "title" : "Contact",
             "number" : "T +254 78 92 27 755",
-            "email": ["E", "info@elewa.ke"]
+            "email": "E, info@elewa.ke"
         },
         "navigation" : {
-            "h1" : "Navigation",
+            "title" : "Navigation",
             "about": "about us",
-            "social" : "Social impact",
+            "impact" : "Social impact",
             "invest" : "Invest", 
             "news" : "News", 
-            "contact" : "Contact"
+            "cont" : "Contact"
         },
         "brands" : {
-            "h1" : "Brands",
-            "brands": ["Elewa", "Italanta", "Venture labs"]
+            "title" : "Brands",
+            "elewa": "Elewa",  
+            "italanta" : "Italanta",
+            "labs" : "Venture labs"
         },
         "privacy" : {
-            "h1" : "Privacy",
+            "title" : "Privacy",
             "terms" : "Terms and conditions",
-            "cookies" : "Cookies preferences"
+            "cookie" : "Cookies preferences"
         },
         "icons" : {
-            "facebook" : ["../../src/assets/icons/facebook_lhhwk2 (1).svg"],
-            "instagram" : ["../../src/assets/icons/instagram_x8ujcq (3).svg", "https://www.instagram.com/elewa_education/"],
-            "linkedIn" : ["../../src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
+            "facebook" : "",
+            "instagram" : "https://www.instagram.com/elewa_education/",
+            "linkedIn" : "https://www.linkedin.com/company/elewa/"
         }
     }],      
     "landingpage" : [{
