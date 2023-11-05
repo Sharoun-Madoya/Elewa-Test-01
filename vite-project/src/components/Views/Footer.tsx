@@ -3,7 +3,7 @@ import Navigation from "../modelsData/navigationprops";
 import Brands from "../modelsData/brandprops";
 import Contacts from "../modelsData/contactprops";
 import Privacy from "../modelsData/Privacyprops";
-import Logo from "../modelsData/headerImgProps";
+import Logo from "../modelsData/LogoProps";
 import "../styles/footer.css"
 
 function Footer() {

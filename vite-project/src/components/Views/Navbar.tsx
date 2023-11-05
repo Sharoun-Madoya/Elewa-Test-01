@@ -1,6 +1,6 @@
 //lists and displays the Header items onto the navbar
 import "../styles/navbar.css"
-import Logo from "../modelsData/headerImgProps";
+import Logo from "../modelsData/LogoProps";
 import { useHeaderItems } from "../ViewModels/useHeaderData";
 
 function NavBar(){

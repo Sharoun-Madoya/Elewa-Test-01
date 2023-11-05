@@ -76,6 +76,11 @@
             "instagram" : ["../../src/assets/icons/instagram_x8ujcq (3).svg", "https://www.instagram.com/elewa_education/"],
             "linkedIn" : ["../../src/assets/icons/linkedin_x8smhm (1).svg", "https://www.linkedin.com/company/elewa/"]
         }
-    }]       
-    
+    }],      
+    "landingpage" : [{
+        "src":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg",
+        "alt": "Elewa",
+        "text": "Trade, not aid",
+        "header": "Southern innovations addressing global problems"
+        }]
   }
