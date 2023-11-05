@@ -29,6 +29,8 @@ You can access the other pages using the navigation bar to the about and invest 
 
 About page : http://localhost:3000/about
 
+Social Impact Page : http://localhost:3000/social
+
 Invest page: http://localhost:3000/invest
 
 You are now ready to explore the Elewa Test project.
