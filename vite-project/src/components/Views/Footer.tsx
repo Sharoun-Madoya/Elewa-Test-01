@@ -3,10 +3,12 @@ import Navigation from "../modelsData/navigationprops";
 import Brands from "../modelsData/brandprops";
 import Contacts from "../modelsData/contactprops";
 import Privacy from "../modelsData/Privacyprops";
-import Logo from "../modelsData/LogoProps";
+import { useElewaLogo } from "../ViewModels/useLogo";
 import "../styles/footer.css"
 
 function Footer() {
+
+    const elewaLogo = useElewaLogo();
     return (
         <div className="footerPage">
             <div className="footerContainer">
@@ -64,9 +66,9 @@ function Footer() {
                 </div>
                 <div>
                     <div className="logo">
-                    {Logo.map((logoItem, index) => (
-                        <img key={index} src={logoItem.src} alt={logoItem.alt} />
-                    ))}
+                    {elewaLogo.map((logoItem, index) => (
+                    <img key={index} src={logoItem.src} alt={logoItem.alt} />
+                ))}
                     </div>
                     <ul></ul>
                 </div>

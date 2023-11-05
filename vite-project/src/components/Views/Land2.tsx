@@ -1,8 +1,10 @@
 
 import "../styles/Land2.css"
-import Land2Page from "../modelsData/Land2Props"
+import { useLand2Page } from "../ViewModels/useLand2Page"
 
 function Land2Pg(){
+const Land2Page= useLand2Page();
+
     return(
         <div className="land2-section">
         {Land2Page.map((item, index) => (

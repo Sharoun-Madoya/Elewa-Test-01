@@ -1,10 +1,12 @@
 //it displays the landing page Text, image and title
 
 import "../styles/landinPage.css"
-import LandingPage from "../modelsData/LandingPageprops";
+import { useLandingPage } from "../ViewModels/useLandingPage"
 
 
 function LandingPg(){
+    const LandingPage = useLandingPage()
+
     return(
         <div className="landing-section">
         {LandingPage.map((item, index) => (
