@@ -1,3 +1,5 @@
+//Renders the page 3 content of social impact
+
 import { useSLand3Page } from "../../ViewModels/socialViewModels/useSLand3Page";
 
 function SocialPg3(){

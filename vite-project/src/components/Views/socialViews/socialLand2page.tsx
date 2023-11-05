@@ -1,3 +1,5 @@
+//Renders the page 2 content of social impact
+
 import { useSocialLand2Page } from "../../ViewModels/socialViewModels/useSLand2Page";
 
 function SocialLand2Pg(){

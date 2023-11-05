@@ -1,3 +1,4 @@
+//Renders the page 4 content of social impact
 import { useSLand4Page } from "../../ViewModels/socialViewModels/useSLand4Page";
 
 function SocialPg4(){

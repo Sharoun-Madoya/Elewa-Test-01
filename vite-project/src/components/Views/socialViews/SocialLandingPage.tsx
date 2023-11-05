@@ -1,4 +1,4 @@
-
+//Renders the landing page  content of social impact
 import { useSocialLandingPage } from "../../ViewModels/socialViewModels/useSocialLanding"
 
 function SocialLandingPg(){
