@@ -18,9 +18,13 @@ TO Navigate to project Repo:
 
     3. pnpm run dev
 
-In another Terminal run  this command to keep watch of data
+In another Terminal to access the dataBase of Json
 
-      4. json-server --watch db.json --port 3001
+  4. cd  vite-project/src/components/dataBase
+
+Run  this command to keep watch of data
+
+      5. json-server --watch db.json --port 3001
 
 
 The website is now running on http://localhost:3000.
