@@ -1,3 +1,6 @@
+//This page holds all the  Social impact page informational pages that have been rendered in App.js
+
+
 import NavBar from '../Views/Navbar'
 import Footer from '../Views/Footer'
 import SocialLandingPg from '../Views/socialViews/SocialLandingPage'
