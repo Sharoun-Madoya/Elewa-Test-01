@@ -1,4 +1,4 @@
-
+//Renders the page 2 content of invest 
 
 import { useLand2Page } from "../../ViewModels/investViewModels/useLand2Page"
 

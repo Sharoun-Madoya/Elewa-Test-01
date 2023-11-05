@@ -1,3 +1,5 @@
+//Renders the page 5 content of invest 
+
 import { usePage5Data } from "../../ViewModels/investViewModels/usePage5Data";
 
 function Pg5(){

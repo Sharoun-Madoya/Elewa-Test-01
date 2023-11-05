@@ -1,3 +1,5 @@
+//Renders the page 4 content of invest 
+
 import { usePage4Data } from "../../ViewModels/investViewModels/usePage4Data";
 
 function Pg4(){
