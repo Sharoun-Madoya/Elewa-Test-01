@@ -1,7 +1,7 @@
 
 import { useSocialLandingPage } from "../../ViewModels/socialViewModels/useSocialLanding"
 
-function socialLandingPg(){
+function SocialLandingPg(){
     const socialLandingPage = useSocialLandingPage()
 
     return(
@@ -17,4 +17,4 @@ function socialLandingPg(){
     )
 }
 
-export default socialLandingPg
+export default SocialLandingPg
