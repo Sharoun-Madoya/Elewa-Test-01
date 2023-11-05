@@ -1,6 +1,6 @@
 //it displays the landing page Text, image and title
 
-import "../styles/landinPage.css"
+// import "/..landinPage.css"
 import { useLandingPage } from "../../ViewModels/investViewModels/useLandingPage"
 
 

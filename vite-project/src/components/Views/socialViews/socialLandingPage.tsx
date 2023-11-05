@@ -1,4 +1,4 @@
-import "../styles/landinPage.css"
+
 import { useSocialLandingPage } from "../../ViewModels/socialViewModels/useSocialLanding"
 
 function socialLandingPg(){
