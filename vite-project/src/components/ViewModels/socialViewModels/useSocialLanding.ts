@@ -1,6 +1,6 @@
+//uses state and effect to fetch data from the Db.json regarding the social impact page
 import { useEffect, useState } from 'react';
 import { socialLandingItems } from '../../modelsData/socialModels/socialLandingProps';
-
 
 export const useSocialLandingPage = () => {
     const [sLandingPage, setSoLandingPage] = useState<socialLandingItems[]>([]);

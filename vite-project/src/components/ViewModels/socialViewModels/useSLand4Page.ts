@@ -1,3 +1,5 @@
+//uses state and effect to fetch data from the Db.json regarding the page 4 of social impact
+
 import { useEffect, useState } from 'react';
 import { sLand4Items } from '../../modelsData/socialModels/s-Landing4Props';
 
