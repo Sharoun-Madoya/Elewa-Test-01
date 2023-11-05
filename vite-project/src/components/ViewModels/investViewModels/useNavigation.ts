@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { NavigationItems } from '../modelsData/investModels/navigationprops';
+import { NavigationItems } from '../../modelsData/investModels/navigationprops';
 
 
 export const useNavigationItem= () => {

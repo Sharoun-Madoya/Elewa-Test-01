@@ -1,4 +1,4 @@
-import { Page6Items } from "../modelsData/investModels/Page6Props";
+import { Page6Items } from "../../modelsData/investModels/Page6Props";
 import { useEffect, useState } from 'react';
 
 

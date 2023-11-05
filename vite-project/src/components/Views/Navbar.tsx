@@ -1,7 +1,7 @@
 //lists and displays the Header items onto the navbar
 import "../styles/navbar.css"
-import { useElewaLogo } from "../ViewModels/useLogo";
-import { useHeaderItems } from "../ViewModels/useHeaderData";
+import { useElewaLogo } from "../ViewModels/investViewModels/useLogo";
+import { useHeaderItems } from "../ViewModels/investViewModels/useHeaderData";
 
 function NavBar(){
     const headerItems = useHeaderItems();

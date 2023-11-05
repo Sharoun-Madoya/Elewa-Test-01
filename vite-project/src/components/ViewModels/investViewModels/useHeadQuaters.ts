@@ -1,7 +1,7 @@
 // viewModels/BrandsViewModel.ts
 //Intermideary between Brand of footer in Views and BrandItem in ModelData
 import { useEffect, useState } from 'react';
-import { HeadquatersItems } from '../modelsData/investModels/HeadquatersProps';
+import { HeadquatersItems } from '../../modelsData/investModels/HeadquatersProps';
 
 
 export const useHeadQuaters= () => {

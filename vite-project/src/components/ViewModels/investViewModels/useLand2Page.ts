@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Land2Items } from '../modelsData/investModels/Land2Props';
+import { Land2Items } from '../../modelsData/investModels/Land2Props';
 
 
 export const useLand2Page = () => {

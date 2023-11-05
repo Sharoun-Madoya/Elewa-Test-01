@@ -1,4 +1,4 @@
-import { Page7Items } from "../modelsData/investModels/Page7Props";
+import { Page7Items } from "../../modelsData/investModels/Page7Props";
 import { useEffect, useState } from 'react';
 
 

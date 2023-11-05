@@ -1,7 +1,7 @@
 //it displays the landing page Text, image and title
 
 import "../styles/landinPage.css"
-import { useLandingPage } from "../ViewModels/useLandingPage"
+import { useLandingPage } from "../ViewModels/investViewModels/useLandingPage"
 
 
 function LandingPg(){

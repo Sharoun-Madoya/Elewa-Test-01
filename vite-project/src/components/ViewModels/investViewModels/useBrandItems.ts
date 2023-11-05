@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrandsItems } from '../modelsData/investModels/brandprops';
+import { BrandsItems } from '../../modelsData/investModels/brandprops';
 
 
 

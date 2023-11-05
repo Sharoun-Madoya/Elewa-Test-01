@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ElewaLogo } from '../modelsData/investModels/LogoProps'; 
+import { ElewaLogo } from '../../modelsData/investModels/LogoProps'; 
 
 
 export const useElewaLogo = () => {

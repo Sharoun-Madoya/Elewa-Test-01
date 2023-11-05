@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { HeaderItems } from '../modelsData/investModels/header';
+import { HeaderItems } from '../../modelsData/investModels/header';
 
 
 export const useHeaderItems = () => {

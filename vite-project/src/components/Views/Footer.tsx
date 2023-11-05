@@ -1,10 +1,10 @@
-import { useNavigationItem } from "../ViewModels/useNavigation"
-import { usePrivacy } from "../ViewModels/usePrivacyItems"
-import { useBrandItems } from "../ViewModels/useBrandItems"
-import { useHeadQuaters } from "../ViewModels/useHeadQuaters"
-import { useContact } from "../ViewModels/useContactItems"
-import { useIconData } from "../ViewModels/useIconsData"
-import { useElewaLogo } from "../ViewModels/useLogo";
+import { useNavigationItem } from "../ViewModels/investViewModels/useNavigation"
+import { usePrivacy } from "../ViewModels/investViewModels/usePrivacyItems"
+import { useBrandItems } from "../ViewModels/investViewModels/useBrandItems"
+import { useHeadQuaters } from "../ViewModels/investViewModels/useHeadQuaters"
+import { useContact } from "../ViewModels/investViewModels/useContactItems"
+import { useIconData } from "../ViewModels/investViewModels/useIconsData"
+import { useElewaLogo } from "../ViewModels/investViewModels/useLogo";
 import "../styles/footer.css"
 
 function Footer() {
