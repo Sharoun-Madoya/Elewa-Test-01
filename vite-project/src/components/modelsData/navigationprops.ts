@@ -1,6 +1,6 @@
 // defining the interface objects for the NavigationItems
 
-interface NavigationItems{
+export interface NavigationItems{
     title:string;
     about:string;
     impact:string;

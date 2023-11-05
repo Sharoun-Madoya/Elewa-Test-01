@@ -1,7 +1,7 @@
 // defining the interface objects for the headerItems
 
 
-interface HeadquatersItems{
+export interface HeadquatersItems{
     footerHeader: string;
     building: string
     road: string

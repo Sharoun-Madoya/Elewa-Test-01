@@ -1,19 +1,29 @@
 // viewModels/BrandsViewModel.ts
 //Intermideary between Brand of footer in Views and BrandItem in ModelData
-import {BrandsItem} from "../modelsData/brandprops";
+import { useEffect, useState } from 'react';
+import { BrandsItems } from '../modelsData/brandprops';
+import { ContactItems } from '../modelsData/contactprops';
+import { PrivacyItems } from '../modelsData/Privacyprops';
+import { NavigationItems } from '../modelsData/navigationprops';
+import { HeadquatersItems } from '../modelsData/HeadquatersProps';
 
-export class BrandsViewModel {
-    private _brands: BrandsItem;
 
-    constructor(brands: BrandsItem) {
-        this._brands = brands;
-    }
-//is used to access the brands data
-    get brands(): BrandsItem {
-        return this._brands;
-    }
-////is used to update the brands data
-    updateBrands(updatedBrands: BrandsItem) {
-        this._brands = { ...this._brands, ...updatedBrands };
-    }
+export const useHeadQuaters= () => {
+    const [headquaterItems, setheadquaterItems] = useState<HeadquatersItems[]>([]);
+    const [navigationItems, setNavgationItems] = useState<NavigationItems[]>([]);
+    const [privacyItems, setPrivacyItems] = useState<PrivacyItems []>([]);
+    const [contactItens, setContactItems] = useState<ContactItems[]>([]);
+    const [brandItems, setBrandItems] = useState<BrandsItems[]>([]);
+
+  
+    useEffect(() => {
+      fetch('http://localhost:3001/footer/headquaters')
+        .then((response) => response.json())
+        .then((data) => {
+          setheadquaterItems(data);
+          console.log(data);
+        });
+    }, []);
+  
+    return headquaterItems
 }

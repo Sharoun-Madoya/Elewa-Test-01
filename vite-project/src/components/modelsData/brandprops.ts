@@ -1,6 +1,6 @@
 // defining the interface objects for the BrandsItems
 
-interface BrandsItems{
+export interface BrandsItems{
     title: string;
     elewa: string;
     italanta: string;

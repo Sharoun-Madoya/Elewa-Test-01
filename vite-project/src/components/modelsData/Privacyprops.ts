@@ -1,5 +1,5 @@
 // defining the interface objects for the PrivacyItems
-interface PrivacyItems{
+ export interface PrivacyItems{
     title:string;
     terms: string;
     cookie: string;
