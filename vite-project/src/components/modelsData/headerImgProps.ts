@@ -1,6 +1,6 @@
 //holds the elewa image logo
 
-interface ElewaLogo{
+export interface ElewaLogo{
     src: string;
     alt:string
 }
